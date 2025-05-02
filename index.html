@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>متجر القرية</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f3f3f3;
+      margin: 0;
+      padding: 0;
+      direction: rtl;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 1.5em;
+      text-align: center;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5em;
+      padding: 2em;
+    }
+    .product {
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 1em;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .product:hover {
+      transform: scale(1.02);
+    }
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .product h3 {
+      margin: 0.5em 0 0.3em;
+    }
+    .product p {
+      color: #444;
+      font-size: 14px;
+    }
+    .order-button {
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      padding: 0.6em 1em;
+      margin-top: 1em;
+      display: inline-block;
+      border-radius: 8px;
+      transition: background-color 0.2s;
+    }
+    .order-button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>متجر القرية</h1>
+  <p>منتجات طازجة وجودة عالية - خدمة استلام أو توصيل</p>
+</header>
+
+<section class="products">
+  <div class="product">
+    <img src="https://via.placeholder.com/250x150" alt="لحم فخذ">
+    <h3>لحم فخذ عجل</h3>
+    <p>50 شيكل / كغم</p>
+    <a class="order-button" href="https://forms.gle/your-google-form-link" target="_blank">اطلب الآن</a>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/250x150" alt="سنتا عجل">
+    <h3>سنتا عجل</h3>
+    <p>55 شيكل / كغم</p>
+    <a class="order-button" href="https://forms.gle/your-google-form-link" target="_blank">اطلب الآن</a>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/250x150" alt="دجاج طازج">
+    <h3>دجاج طازج</h3>
+    <p>20 شيكل / كغم</p>
+    <a class="order-button" href="https://forms.gle/your-google-form-link" target="_blank">اطلب الآن</a>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/250x150" alt="منظفات">
+    <h3>منظفات منزلية</h3>
+    <p>منتجات تنظيف متعددة</p>
+    <a class="order-button" href="https://forms.gle/your-google-form-link" target="_blank">اطلب الآن</a>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/250x150" alt="مواد غذائية">
+    <h3>مواد غذائية</h3>
+    <p>سكر، رز، زيت، طحين، معلبات...</p>
+    <a class="order-button" href="https://forms.gle/your-google-form-link" target="_blank">اطلب الآن</a>
+  </div>
+</section>
+
+</body>
+</html>
